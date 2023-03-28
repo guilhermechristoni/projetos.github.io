@@ -25,10 +25,10 @@ let timerTimeOut
 const secondsDisplay = document.querySelector('.seconds')
 
 //Elementos SOUNDS
-const bgAudioRain = new Audio("./sounds/chuva.mp4")
-const bgAudioForest = new Audio("./sounds/floresta.mp4")
-const bgAudioCoffeShop = new Audio("./sounds/cafeteria.mp4")
-const bgAudioFireplace = new Audio("./sounds/lareira.mp4")
+const bgAudioRain = new Audio("https://user-images.githubusercontent.com/92758108/228344134-75c75613-b48f-457f-a244-c4b676051c6a.mp4")
+const bgAudioForest = new Audio("https://user-images.githubusercontent.com/92758108/228344141-84e29132-f5e4-4971-ae8a-03c164e130a3.mp4")
+const bgAudioCoffeShop = new Audio("https://user-images.githubusercontent.com/92758108/228342654-91a32be7-815c-4f63-99f4-028b0dc81f5c.mp4")
+const bgAudioFireplace = new Audio("https://user-images.githubusercontent.com/92758108/228344145-41526ef6-a105-4b39-8a9c-a1b555be98f4.mp4")
 
 //timer
 function resetControls() {
