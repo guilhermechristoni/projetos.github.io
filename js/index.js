@@ -98,10 +98,10 @@ elements.buttonSet_white.addEventListener('click', function() {
 
 
 //Colocando audio de fundo em loop
-sons.bgAudioRain.loop
-sons.bgAudioCoffeShop.loop
-sons.bgAudioFireplace.loop
-sons.bgAudioForest.loop
+sons.bgAudioRain.loop = true
+sons.bgAudioCoffeShop.loop = true
+sons.bgAudioFireplace.loop = true
+sons.bgAudioForest.loop = true
 
 //Botão eventos AUDIOS DE FUNDO (forest,rain,fireplace,coffeShop)
 elements.buttonRain.addEventListener('click', function(){
